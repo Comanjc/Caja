@@ -1,0 +1,73 @@
+body{
+    text-align: center;
+}
+h1{
+    margin-top: 40px;
+    grid-column: 1 / span 2;
+    text-align: center;
+}
+.caja{
+    width: 300px;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border: 2px solid #cccccc;
+}
+.boton{
+    width: 325px;
+    height: 40px;
+    background-color: #0c3450;
+    color: white;
+}
+.central{
+    display: flex;
+    width: 735px;
+    height: 598px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.imag{
+    width: 100%;
+    height: 100%;
+    background-image: url(caja.png);
+}
+.index{
+    display: grid;
+    width: 445px;
+    height: 336px;
+    margin-left: 64px;
+    margin-top: 57px;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.uno{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.dos{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    margin-top: 10px;
+}
+.tres{
+    width: 200px;
+    height: 50px;
+    margin-left: 8px;
+}
+.tres2{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    margin-left: 8px;
+}
+.cuatro{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+}
